@@ -4,7 +4,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
-import org.springframework.web.client.RestTemplate;
+import org.tduni.learn.springcloud.ribbon.service.HelloService;
 
 /**
  * Created by kidal on 2017/6/12.
@@ -17,14 +17,14 @@ public class HelloController {
     /**
      *
      */
-    private final RestTemplate restTemplate;
+    private final HelloService helloService;
 
     /**
      *
      */
     @Autowired
-    public HelloController(RestTemplate restTemplate) {
-        this.restTemplate = restTemplate;
+    public HelloController(HelloService helloService) {
+        this.helloService = helloService;
     }
 
     /**
@@ -32,6 +32,6 @@ public class HelloController {
      */
     @RequestMapping(value = "/hello", method = RequestMethod.GET)
     public String getHello() {
-        return restTemplate.getForEntity("http://HELLO-SERVER/hello", String.class).getBody();
+        return helloService.hello();
     }
 }
