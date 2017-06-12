@@ -4,4 +4,5 @@ include 'learn-spring-cloud-eureka'
 include 'learn-spring-cloud-eureka2'
 include 'learn-spring-cloud-hello2'
 include 'learn-spring-cloud-ribbon'
+include 'learn-spring-cloud-hystrix-dashboard'
 
