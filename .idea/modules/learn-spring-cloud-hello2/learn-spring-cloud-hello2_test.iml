@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<module external.linked.project.id=":learn-spring-cloud-eureka:test" external.linked.project.path="$MODULE_DIR$/../../../learn-spring-cloud-eureka" external.root.project.path="$MODULE_DIR$/../../.." external.system.id="GRADLE" external.system.module.group="learn-spring-cloud" external.system.module.type="sourceSet" external.system.module.version="unspecified" type="JAVA_MODULE" version="4">
+<module external.linked.project.id=":learn-spring-cloud-hello2:test" external.linked.project.path="$MODULE_DIR$/../../../learn-spring-cloud-hello2" external.root.project.path="$MODULE_DIR$/../../.." external.system.id="GRADLE" external.system.module.group="learn-spring-cloud" external.system.module.type="sourceSet" external.system.module.version="unspecified" type="JAVA_MODULE" version="4">
   <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_8" inherit-compiler-output="false">
-    <output-test url="file://$MODULE_DIR$/../../../learn-spring-cloud-eureka/build/classes/test" />
+    <output-test url="file://$MODULE_DIR$/../../../learn-spring-cloud-hello2/build/classes/test" />
     <exclude-output />
-    <content url="file://$MODULE_DIR$/../../../learn-spring-cloud-eureka/src/test">
-      <sourceFolder url="file://$MODULE_DIR$/../../../learn-spring-cloud-eureka/src/test/java" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/../../../learn-spring-cloud-eureka/src/test/resources" type="java-test-resource" />
+    <content url="file://$MODULE_DIR$/../../../learn-spring-cloud-hello2/src/test">
+      <sourceFolder url="file://$MODULE_DIR$/../../../learn-spring-cloud-hello2/src/test/java" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../learn-spring-cloud-hello2/src/test/resources" type="java-test-resource" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="module" module-name="learn-spring-cloud-eureka_main" />
+    <orderEntry type="module" module-name="learn-spring-cloud-hello2_main" />
     <orderEntry type="library" name="Gradle: org.springframework.boot:spring-boot:1.5.3.RELEASE" level="project" />
     <orderEntry type="library" name="Gradle: org.springframework.boot:spring-boot-autoconfigure:1.5.3.RELEASE" level="project" />
     <orderEntry type="library" name="Gradle: org.springframework.boot:spring-boot-starter-web:1.5.3.RELEASE" level="project" />
@@ -152,5 +152,5 @@
     <orderEntry type="library" name="Gradle: org.apache.httpcomponents:httpcore:4.4.4" level="project" />
     <orderEntry type="library" name="Gradle: commons-codec:commons-codec:1.9" level="project" />
   </component>
-  <component name="TestModuleProperties" production-module="learn-spring-cloud-eureka_main" />
+  <component name="TestModuleProperties" production-module="learn-spring-cloud-hello2_main" />
 </module>

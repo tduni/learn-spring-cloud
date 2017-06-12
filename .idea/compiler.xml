@@ -23,8 +23,12 @@
       <module name="learn-spring-cloud-eureka2_test" target="1.8" />
       <module name="learn-spring-cloud-eureka_main" target="1.8" />
       <module name="learn-spring-cloud-eureka_test" target="1.8" />
+      <module name="learn-spring-cloud-hello2_main" target="1.8" />
+      <module name="learn-spring-cloud-hello2_test" target="1.8" />
       <module name="learn-spring-cloud-hello_main" target="1.8" />
       <module name="learn-spring-cloud-hello_test" target="1.8" />
+      <module name="learn-spring-cloud-ribbon_main" target="1.8" />
+      <module name="learn-spring-cloud-ribbon_test" target="1.8" />
       <module name="learn-spring-cloud_main" target="1.5" />
       <module name="learn-spring-cloud_test" target="1.5" />
     </bytecodeTargetLevel>

@@ -13,6 +13,8 @@
             <option value="$PROJECT_DIR$/learn-spring-cloud-eureka" />
             <option value="$PROJECT_DIR$/learn-spring-cloud-eureka2" />
             <option value="$PROJECT_DIR$/learn-spring-cloud-hello" />
+            <option value="$PROJECT_DIR$/learn-spring-cloud-hello2" />
+            <option value="$PROJECT_DIR$/learn-spring-cloud-ribbon" />
           </set>
         </option>
         <option name="useAutoImport" value="true" />
