@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/learn-spring-cloud.iml" filepath="$PROJECT_DIR$/.idea/modules/learn-spring-cloud.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/learn-spring-cloud-hello/learn-spring-cloud-hello.iml" filepath="$PROJECT_DIR$/.idea/modules/learn-spring-cloud-hello/learn-spring-cloud-hello.iml" group="learn-spring-cloud-hello" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/learn-spring-cloud-hello/learn-spring-cloud-hello_main.iml" filepath="$PROJECT_DIR$/.idea/modules/learn-spring-cloud-hello/learn-spring-cloud-hello_main.iml" group="learn-spring-cloud-hello" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/learn-spring-cloud-hello/learn-spring-cloud-hello_test.iml" filepath="$PROJECT_DIR$/.idea/modules/learn-spring-cloud-hello/learn-spring-cloud-hello_test.iml" group="learn-spring-cloud-hello" />
+    </modules>
+  </component>
+</project>
