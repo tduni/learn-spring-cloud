@@ -19,6 +19,10 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="learn-spring-cloud-eureka2_main" target="1.8" />
+      <module name="learn-spring-cloud-eureka2_test" target="1.8" />
+      <module name="learn-spring-cloud-eureka_main" target="1.8" />
+      <module name="learn-spring-cloud-eureka_test" target="1.8" />
       <module name="learn-spring-cloud-hello_main" target="1.8" />
       <module name="learn-spring-cloud-hello_test" target="1.8" />
       <module name="learn-spring-cloud_main" target="1.5" />

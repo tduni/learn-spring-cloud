@@ -3,6 +3,12 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/learn-spring-cloud.iml" filepath="$PROJECT_DIR$/.idea/modules/learn-spring-cloud.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/learn-spring-cloud-eureka/learn-spring-cloud-eureka.iml" filepath="$PROJECT_DIR$/.idea/modules/learn-spring-cloud-eureka/learn-spring-cloud-eureka.iml" group="learn-spring-cloud-eureka" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/learn-spring-cloud-eureka2/learn-spring-cloud-eureka2.iml" filepath="$PROJECT_DIR$/.idea/modules/learn-spring-cloud-eureka2/learn-spring-cloud-eureka2.iml" group="learn-spring-cloud-eureka2" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/learn-spring-cloud-eureka2/learn-spring-cloud-eureka2_main.iml" filepath="$PROJECT_DIR$/.idea/modules/learn-spring-cloud-eureka2/learn-spring-cloud-eureka2_main.iml" group="learn-spring-cloud-eureka2" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/learn-spring-cloud-eureka2/learn-spring-cloud-eureka2_test.iml" filepath="$PROJECT_DIR$/.idea/modules/learn-spring-cloud-eureka2/learn-spring-cloud-eureka2_test.iml" group="learn-spring-cloud-eureka2" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/learn-spring-cloud-eureka/learn-spring-cloud-eureka_main.iml" filepath="$PROJECT_DIR$/.idea/modules/learn-spring-cloud-eureka/learn-spring-cloud-eureka_main.iml" group="learn-spring-cloud-eureka" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/learn-spring-cloud-eureka/learn-spring-cloud-eureka_test.iml" filepath="$PROJECT_DIR$/.idea/modules/learn-spring-cloud-eureka/learn-spring-cloud-eureka_test.iml" group="learn-spring-cloud-eureka" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/learn-spring-cloud-hello/learn-spring-cloud-hello.iml" filepath="$PROJECT_DIR$/.idea/modules/learn-spring-cloud-hello/learn-spring-cloud-hello.iml" group="learn-spring-cloud-hello" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/learn-spring-cloud-hello/learn-spring-cloud-hello_main.iml" filepath="$PROJECT_DIR$/.idea/modules/learn-spring-cloud-hello/learn-spring-cloud-hello_main.iml" group="learn-spring-cloud-hello" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/learn-spring-cloud-hello/learn-spring-cloud-hello_test.iml" filepath="$PROJECT_DIR$/.idea/modules/learn-spring-cloud-hello/learn-spring-cloud-hello_test.iml" group="learn-spring-cloud-hello" />

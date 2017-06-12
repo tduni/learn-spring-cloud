@@ -3,7 +3,7 @@
 #-----------------------------------------------------------------
 spring:
   application:
-    name: hello-server
+    name: eureka-server
   profiles:
     active: dev
   output:
@@ -14,7 +14,7 @@ spring:
 # Server
 #-----------------------------------------------------------------
 server:
-  port: 27201
+  port: 27102
 
 #-----------------------------------------------------------------
 # Actuator
@@ -34,8 +34,23 @@ endpoints:
 # Eureka
 #-----------------------------------------------------------------
 eureka:
+  instance:
+    #
+    hostname: eureka2.springcloud.learn.1.com
+    # 服务续约的调用间隔时间
+    lease-renewal-interval-in-seconds: 30
+    # 服务时效的时间
+    lease-expiration-duration-in-seconds: 90
+  server:
+    # 关闭自我保护机制（本地调试）
+    enable-self-preservation: false
   client:
+    # 注册到eureka
+    register-with-eureka: false
+    # 更新缓存清单
+    fetch-registry: false
+    # 缓存清单更新时间
+    registry-fetch-interval-seconds: 30
     # 服务地址
     service-url:
-      defaultZone: http://eureka.springcloud.learn.1.com:27101/eureka/
-      #defaultZone: http://eureka.springcloud.learn.1.com:27101/eureka/,http://eureka2.springcloud.learn.1.com:27102/eureka/
+      defaultZone: http://eureka.springcloud.learn.1.com:${server.port}/eureka/

@@ -1,8 +1,20 @@
 #-----------------------------------------------------------------
+# Spring
+#-----------------------------------------------------------------
+spring:
+  application:
+    name: hello-server
+  profiles:
+    active: dev
+  output:
+    ansi:
+      enabled: always
+
+#-----------------------------------------------------------------
 # Server
 #-----------------------------------------------------------------
 server:
-  port: 27101
+  port: 27201
 
 #-----------------------------------------------------------------
 # Actuator
@@ -17,13 +29,12 @@ endpoints:
   beans:
     enabled: true
     sensitive: false
-  
+
 #-----------------------------------------------------------------
-# Spring
+# Eureka
 #-----------------------------------------------------------------
-spring:
-  profiles:
-    active: dev
-  output:
-    ansi:
-      enabled: always
+eureka:
+  client:
+    # 服务地址
+    service-url:
+      defaultZone: http://eureka.springcloud.learn.1.com:27101/eureka/,http://eureka2.springcloud.learn.1.com:27102/eureka/
