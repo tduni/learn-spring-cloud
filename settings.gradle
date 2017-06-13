@@ -7,4 +7,5 @@ include 'learn-spring-cloud-ribbon'
 include 'learn-spring-cloud-hystrix-dashboard'
 include 'learn-spring-cloud-feign'
 include 'learn-spring-cloud-commons-contract'
+include 'learn-spring-cloud-gateway'
 

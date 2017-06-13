@@ -13,7 +13,7 @@ import org.tduni.learn.springcloud.commons.contract.model.User;
  * @author kidal
  * @since 1.0.0
  */
-@Component
+//@Component
 public class HelloServerServiceFallback implements HelloServerApi {
     @Override
     public String hello() throws InterruptedException {

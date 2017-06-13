@@ -9,6 +9,6 @@ import org.tduni.learn.springcloud.commons.contract.api.HelloServerApi;
  * @author kidal
  * @since 1.0.0
  */
-@FeignClient(value = "HELLO-SERVER", fallback = HelloServerServiceFallback.class)
+@FeignClient(value = "HELLO-SERVER"/*, fallback = HelloServerServiceFallback.class*/)
 public interface HelloServerService extends HelloServerApi {
 }

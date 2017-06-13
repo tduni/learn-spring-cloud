@@ -45,10 +45,10 @@ public class HelloController implements HelloServerApi {
     @Override
     @RequestMapping("/hello")
     public String hello() throws InterruptedException {
-        ServiceInstance instance = client.getLocalServiceInstance();
-        int time = new Random().nextInt(3000);
-        logger.info("Sleep " + time);
-        Thread.sleep(time);
+        //ServiceInstance instance = client.getLocalServiceInstance();
+        //int time = new Random().nextInt(3000);
+        //logger.info("Sleep " + time);
+        //Thread.sleep(time);
         return "Hello World";
     }
 
