@@ -16,6 +16,7 @@
             <option value="$PROJECT_DIR$/learn-spring-cloud-eureka2" />
             <option value="$PROJECT_DIR$/learn-spring-cloud-feign" />
             <option value="$PROJECT_DIR$/learn-spring-cloud-gateway" />
+            <option value="$PROJECT_DIR$/learn-spring-cloud-gateway-dynamic-filter" />
             <option value="$PROJECT_DIR$/learn-spring-cloud-gateway-dynamic-route" />
             <option value="$PROJECT_DIR$/learn-spring-cloud-hello" />
             <option value="$PROJECT_DIR$/learn-spring-cloud-hello2" />

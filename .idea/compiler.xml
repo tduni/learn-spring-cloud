@@ -29,6 +29,8 @@
       <module name="learn-spring-cloud-eureka_test" target="1.8" />
       <module name="learn-spring-cloud-feign_main" target="1.8" />
       <module name="learn-spring-cloud-feign_test" target="1.8" />
+      <module name="learn-spring-cloud-gateway-dynamic-filter_main" target="1.8" />
+      <module name="learn-spring-cloud-gateway-dynamic-filter_test" target="1.8" />
       <module name="learn-spring-cloud-gateway-dynamic-route_main" target="1.8" />
       <module name="learn-spring-cloud-gateway-dynamic-route_test" target="1.8" />
       <module name="learn-spring-cloud-gateway_main" target="1.8" />
