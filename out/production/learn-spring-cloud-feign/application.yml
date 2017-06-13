@@ -1,0 +1,41 @@
+#-----------------------------------------------------------------
+# Spring
+#-----------------------------------------------------------------
+spring:
+  application:
+    name: feign-server
+  profiles:
+    active: dev
+  output:
+    ansi:
+      enabled: always
+
+#-----------------------------------------------------------------
+# Server
+#-----------------------------------------------------------------
+server:
+  port: 27303
+
+#-----------------------------------------------------------------
+# Actuator
+#-----------------------------------------------------------------
+endpoints:
+  health:
+    enabled: true
+    sensitive: false
+  metrics:
+    enabled: true
+    sensitive: false
+  beans:
+    enabled: true
+    sensitive: false
+
+#-----------------------------------------------------------------
+# Eureka
+#-----------------------------------------------------------------
+eureka:
+  client:
+    # 服务地址
+    service-url:
+      defaultZone: http://eureka.springcloud.learn.1.com:27101/eureka/
+      #defaultZone: http://eureka.springcloud.learn.1.com:27101/eureka/,http://eureka2.springcloud.learn.1.com:27102/eureka/

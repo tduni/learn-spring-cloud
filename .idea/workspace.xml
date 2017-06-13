@@ -2,23 +2,46 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="badeefeb-8fcf-4e0c-9a4b-7d521ef1937e" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dictionaries/kidal.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_httpcomponents_httpclient_4_5_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_httpcomponents_httpcore_4_4_6.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_cloud_spring_cloud_netflix_hystrix_dashboard_1_3_1_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_cloud_spring_cloud_starter_hystrix_dashboard_1_3_1_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_webjars_d3js_3_4_11.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_webjars_jquery_2_1_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules/learn-spring-cloud-hystrix-dashboard/learn-spring-cloud-hystrix-dashboard.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules/learn-spring-cloud-hystrix-dashboard/learn-spring-cloud-hystrix-dashboard_main.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules/learn-spring-cloud-hystrix-dashboard/learn-spring-cloud-hystrix-dashboard_test.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/learn-spring-cloud-hystrix-dashboard/src/main/java/org/tduni/learn/springcloud/hystrix/dashboard/StartHystrixDashboardServer.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/learn-spring-cloud-hystrix-dashboard/src/main/resources/application-dev.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_projectlombok_lombok_1_16_16.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules/learn-spring-cloud-commons-contract/learn-spring-cloud-commons-contract.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules/learn-spring-cloud-commons-contract/learn-spring-cloud-commons-contract_main.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules/learn-spring-cloud-commons-contract/learn-spring-cloud-commons-contract_test.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules/learn-spring-cloud-feign/learn-spring-cloud-feign.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules/learn-spring-cloud-feign/learn-spring-cloud-feign_main.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules/learn-spring-cloud-feign/learn-spring-cloud-feign_test.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/learn-spring-cloud-commons-contract/src/main/java/org/tduni/learn/springcloud/commons/contract/api/HelloServerApi.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/learn-spring-cloud-commons-contract/src/main/java/org/tduni/learn/springcloud/commons/contract/model/User.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/learn-spring-cloud-feign/src/main/java/org/tduni/learn/springcloud/feign/StartFeignServer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/learn-spring-cloud-feign/src/main/java/org/tduni/learn/springcloud/feign/api/HelloServerService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/learn-spring-cloud-feign/src/main/java/org/tduni/learn/springcloud/feign/api/HelloServerServiceFallback.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/learn-spring-cloud-feign/src/main/java/org/tduni/learn/springcloud/feign/controller/HelloController.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/learn-spring-cloud-feign/src/main/resources/application.yml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/learn-spring-cloud-eureka/build/resources/main/application-dev.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/learn-spring-cloud-hello/build/resources/main/application-dev.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/learn-spring-cloud-hello2/build/resources/main/application-dev.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/learn-spring-cloud-eureka/application-dev.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/learn-spring-cloud-hello/application-dev.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/learn-spring-cloud-hello2/application-dev.yml" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/learn-spring-cloud-eureka/src/main/resources/application-dev.yml" afterPath="$PROJECT_DIR$/learn-spring-cloud-eureka/src/main/resources/application.yml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/learn-spring-cloud-hello/src/main/resources/application-dev.yml" afterPath="$PROJECT_DIR$/learn-spring-cloud-hello/src/main/resources/application.yml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/learn-spring-cloud-hello2/src/main/resources/application-dev.yml" afterPath="$PROJECT_DIR$/learn-spring-cloud-hello2/src/main/resources/application.yml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/gradle.xml" afterPath="$PROJECT_DIR$/.idea/gradle.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/learn-spring-cloud-eureka/learn-spring-cloud-eureka_main.iml" afterPath="$PROJECT_DIR$/.idea/modules/learn-spring-cloud-eureka/learn-spring-cloud-eureka_main.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/learn-spring-cloud-eureka2/learn-spring-cloud-eureka2_main.iml" afterPath="$PROJECT_DIR$/.idea/modules/learn-spring-cloud-eureka2/learn-spring-cloud-eureka2_main.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/learn-spring-cloud-hello/learn-spring-cloud-hello_main.iml" afterPath="$PROJECT_DIR$/.idea/modules/learn-spring-cloud-hello/learn-spring-cloud-hello_main.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/learn-spring-cloud-hello/learn-spring-cloud-hello_test.iml" afterPath="$PROJECT_DIR$/.idea/modules/learn-spring-cloud-hello/learn-spring-cloud-hello_test.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/learn-spring-cloud-hello2/learn-spring-cloud-hello2_main.iml" afterPath="$PROJECT_DIR$/.idea/modules/learn-spring-cloud-hello2/learn-spring-cloud-hello2_main.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/learn-spring-cloud-hello2/learn-spring-cloud-hello2_test.iml" afterPath="$PROJECT_DIR$/.idea/modules/learn-spring-cloud-hello2/learn-spring-cloud-hello2_test.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/learn-spring-cloud-hystrix-dashboard/learn-spring-cloud-hystrix-dashboard_main.iml" afterPath="$PROJECT_DIR$/.idea/modules/learn-spring-cloud-hystrix-dashboard/learn-spring-cloud-hystrix-dashboard_main.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/learn-spring-cloud-ribbon/learn-spring-cloud-ribbon_main.iml" afterPath="$PROJECT_DIR$/.idea/modules/learn-spring-cloud-ribbon/learn-spring-cloud-ribbon_main.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/learn-spring-cloud-ribbon/src/main/java/org/tduni/learn/springcloud/ribbon/service/HelloService.java" afterPath="$PROJECT_DIR$/learn-spring-cloud-ribbon/src/main/java/org/tduni/learn/springcloud/ribbon/service/HelloService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build.gradle" afterPath="$PROJECT_DIR$/build.gradle" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/learn-spring-cloud-hello/build.gradle" afterPath="$PROJECT_DIR$/learn-spring-cloud-hello/build.gradle" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/learn-spring-cloud-hello/src/main/java/org/tduni/learn/springcloud/hello/controller/HelloController.java" afterPath="$PROJECT_DIR$/learn-spring-cloud-hello/src/main/java/org/tduni/learn/springcloud/hello/controller/HelloController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/learn-spring-cloud-hello2/build.gradle" afterPath="$PROJECT_DIR$/learn-spring-cloud-hello2/build.gradle" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/learn-spring-cloud-hello2/src/main/java/org/tduni/learn/springcloud/hello2/controller/HelloController.java" afterPath="$PROJECT_DIR$/learn-spring-cloud-hello2/src/main/java/org/tduni/learn/springcloud/hello2/controller/HelloController.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/settings.gradle" afterPath="$PROJECT_DIR$/settings.gradle" />
     </list>
     <ignored path="learn-spring-cloud.iws" />
@@ -39,6 +62,10 @@
     <ignored path="$PROJECT_DIR$/learn-spring-cloud-ribbon/build/" />
     <ignored path="$PROJECT_DIR$/learn-spring-cloud-hystrix-dashboard/.gradle/" />
     <ignored path="$PROJECT_DIR$/learn-spring-cloud-hystrix-dashboard/build/" />
+    <ignored path="$PROJECT_DIR$/learn-spring-cloud-feign/.gradle/" />
+    <ignored path="$PROJECT_DIR$/learn-spring-cloud-feign/build/" />
+    <ignored path="$PROJECT_DIR$/learn-spring-cloud-commons-contract/.gradle/" />
+    <ignored path="$PROJECT_DIR$/learn-spring-cloud-commons-contract/build/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -58,7 +85,9 @@
   <component name="ExternalProjectsManager">
     <system id="GRADLE">
       <state>
-        <projects_view />
+        <projects_view>
+          <tree_state />
+        </projects_view>
       </state>
     </system>
   </component>
@@ -67,23 +96,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="StartHystrixDashboardServer.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/learn-spring-cloud-hystrix-dashboard/src/main/java/org/tduni/learn/springcloud/hystrix/dashboard/StartHystrixDashboardServer.java">
+      <file leaf-file-name="application.yml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/learn-spring-cloud-feign/src/main/resources/application.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
-              <caret line="18" column="6" selection-start-line="18" selection-start-column="6" selection-end-line="18" selection-end-column="6" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="application-dev.yml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/learn-spring-cloud-hystrix-dashboard/src/main/resources/application-dev.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="16" column="13" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="13" />
+            <state relative-caret-position="395">
+              <caret line="41" column="0" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -95,6 +112,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JUnit4 Test Class" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -128,6 +146,10 @@
                 <option name="path" value="$PROJECT_DIR$/learn-spring-cloud-eureka" />
               </ExternalProjectPojo>
               <ExternalProjectPojo>
+                <option name="name" value=":learn-spring-cloud-feign" />
+                <option name="path" value="$PROJECT_DIR$/learn-spring-cloud-feign" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
                 <option name="name" value=":learn-spring-cloud-hello2" />
                 <option name="path" value="$PROJECT_DIR$/learn-spring-cloud-hello2" />
               </ExternalProjectPojo>
@@ -138,6 +160,10 @@
               <ExternalProjectPojo>
                 <option name="name" value=":learn-spring-cloud-eureka2" />
                 <option name="path" value="$PROJECT_DIR$/learn-spring-cloud-eureka2" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value=":learn-spring-cloud-commons-contract" />
+                <option name="path" value="$PROJECT_DIR$/learn-spring-cloud-commons-contract" />
               </ExternalProjectPojo>
               <ExternalProjectPojo>
                 <option name="name" value="learn-spring-cloud" />
@@ -285,6 +311,132 @@
               <ExternalTaskPojo>
                 <option name="description" value="Displays the properties of root project 'learn-spring-cloud'." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="properties" />
+              </ExternalTaskPojo>
+            </list>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/learn-spring-cloud-commons-contract">
+          <value>
+            <list>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the components produced by project ':learn-spring-cloud-commons-contract'. [incubating]" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/learn-spring-cloud-commons-contract" />
+                <option name="name" value="components" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles and tests this project and all projects that depend on it." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/learn-spring-cloud-commons-contract" />
+                <option name="name" value="buildDependents" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the sub-projects of project ':learn-spring-cloud-commons-contract'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/learn-spring-cloud-commons-contract" />
+                <option name="name" value="projects" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles main classes." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/learn-spring-cloud-commons-contract" />
+                <option name="name" value="classes" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays all buildscript dependencies declared in project ':learn-spring-cloud-commons-contract'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/learn-spring-cloud-commons-contract" />
+                <option name="name" value="buildEnvironment" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles test classes." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/learn-spring-cloud-commons-contract" />
+                <option name="name" value="testClasses" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Generates Javadoc API documentation for the main source code." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/learn-spring-cloud-commons-contract" />
+                <option name="name" value="javadoc" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles a jar archive containing the main classes." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/learn-spring-cloud-commons-contract" />
+                <option name="name" value="jar" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the configuration model of project ':learn-spring-cloud-commons-contract'. [incubating]" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/learn-spring-cloud-commons-contract" />
+                <option name="name" value="model" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Processes main resources." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/learn-spring-cloud-commons-contract" />
+                <option name="name" value="processResources" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the tasks runnable from project ':learn-spring-cloud-commons-contract'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/learn-spring-cloud-commons-contract" />
+                <option name="name" value="tasks" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Runs the unit tests." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/learn-spring-cloud-commons-contract" />
+                <option name="name" value="test" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Compiles main Java source." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/learn-spring-cloud-commons-contract" />
+                <option name="name" value="compileJava" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the insight into a specific dependency in project ':learn-spring-cloud-commons-contract'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/learn-spring-cloud-commons-contract" />
+                <option name="name" value="dependencyInsight" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Runs all checks." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/learn-spring-cloud-commons-contract" />
+                <option name="name" value="check" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles the outputs of this project." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/learn-spring-cloud-commons-contract" />
+                <option name="name" value="assemble" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Deletes the build directory." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/learn-spring-cloud-commons-contract" />
+                <option name="name" value="clean" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Compiles test Java source." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/learn-spring-cloud-commons-contract" />
+                <option name="name" value="compileTestJava" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays all dependencies declared in project ':learn-spring-cloud-commons-contract'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/learn-spring-cloud-commons-contract" />
+                <option name="name" value="dependencies" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Processes test resources." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/learn-spring-cloud-commons-contract" />
+                <option name="name" value="processTestResources" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays a help message." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/learn-spring-cloud-commons-contract" />
+                <option name="name" value="help" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles and tests this project." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/learn-spring-cloud-commons-contract" />
+                <option name="name" value="build" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles and tests this project and all projects it depends on." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/learn-spring-cloud-commons-contract" />
+                <option name="name" value="buildNeeded" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the properties of project ':learn-spring-cloud-commons-contract'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/learn-spring-cloud-commons-contract" />
                 <option name="name" value="properties" />
               </ExternalTaskPojo>
             </list>
@@ -537,6 +689,132 @@
               <ExternalTaskPojo>
                 <option name="description" value="Displays the properties of project ':learn-spring-cloud-eureka2'." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/learn-spring-cloud-eureka2" />
+                <option name="name" value="properties" />
+              </ExternalTaskPojo>
+            </list>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/learn-spring-cloud-feign">
+          <value>
+            <list>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the components produced by project ':learn-spring-cloud-feign'. [incubating]" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/learn-spring-cloud-feign" />
+                <option name="name" value="components" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles and tests this project and all projects that depend on it." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/learn-spring-cloud-feign" />
+                <option name="name" value="buildDependents" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the sub-projects of project ':learn-spring-cloud-feign'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/learn-spring-cloud-feign" />
+                <option name="name" value="projects" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles main classes." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/learn-spring-cloud-feign" />
+                <option name="name" value="classes" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays all buildscript dependencies declared in project ':learn-spring-cloud-feign'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/learn-spring-cloud-feign" />
+                <option name="name" value="buildEnvironment" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles test classes." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/learn-spring-cloud-feign" />
+                <option name="name" value="testClasses" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Generates Javadoc API documentation for the main source code." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/learn-spring-cloud-feign" />
+                <option name="name" value="javadoc" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles a jar archive containing the main classes." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/learn-spring-cloud-feign" />
+                <option name="name" value="jar" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the configuration model of project ':learn-spring-cloud-feign'. [incubating]" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/learn-spring-cloud-feign" />
+                <option name="name" value="model" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Processes main resources." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/learn-spring-cloud-feign" />
+                <option name="name" value="processResources" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the tasks runnable from project ':learn-spring-cloud-feign'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/learn-spring-cloud-feign" />
+                <option name="name" value="tasks" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Runs the unit tests." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/learn-spring-cloud-feign" />
+                <option name="name" value="test" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Compiles main Java source." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/learn-spring-cloud-feign" />
+                <option name="name" value="compileJava" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the insight into a specific dependency in project ':learn-spring-cloud-feign'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/learn-spring-cloud-feign" />
+                <option name="name" value="dependencyInsight" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Runs all checks." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/learn-spring-cloud-feign" />
+                <option name="name" value="check" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles the outputs of this project." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/learn-spring-cloud-feign" />
+                <option name="name" value="assemble" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Deletes the build directory." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/learn-spring-cloud-feign" />
+                <option name="name" value="clean" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Compiles test Java source." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/learn-spring-cloud-feign" />
+                <option name="name" value="compileTestJava" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays all dependencies declared in project ':learn-spring-cloud-feign'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/learn-spring-cloud-feign" />
+                <option name="name" value="dependencies" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Processes test resources." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/learn-spring-cloud-feign" />
+                <option name="name" value="processTestResources" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays a help message." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/learn-spring-cloud-feign" />
+                <option name="name" value="help" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles and tests this project." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/learn-spring-cloud-feign" />
+                <option name="name" value="build" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles and tests this project and all projects it depends on." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/learn-spring-cloud-feign" />
+                <option name="name" value="buildNeeded" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the properties of project ':learn-spring-cloud-feign'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/learn-spring-cloud-feign" />
                 <option name="name" value="properties" />
               </ExternalTaskPojo>
             </list>
@@ -1050,7 +1328,7 @@
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="$PROJECT_DIR$" value="11978126385529" />
+        <entry key="$PROJECT_DIR$" value="14972992070018" />
       </map>
     </option>
     <option name="projectBuildClasspath">
@@ -1067,6 +1345,13 @@
                       </ExternalModuleBuildClasspathPojo>
                     </value>
                   </entry>
+                  <entry key="$PROJECT_DIR$/learn-spring-cloud-commons-contract">
+                    <value>
+                      <ExternalModuleBuildClasspathPojo>
+                        <option name="path" value="$PROJECT_DIR$/learn-spring-cloud-commons-contract" />
+                      </ExternalModuleBuildClasspathPojo>
+                    </value>
+                  </entry>
                   <entry key="$PROJECT_DIR$/learn-spring-cloud-eureka">
                     <value>
                       <ExternalModuleBuildClasspathPojo>
@@ -1078,6 +1363,13 @@
                     <value>
                       <ExternalModuleBuildClasspathPojo>
                         <option name="path" value="$PROJECT_DIR$/learn-spring-cloud-eureka2" />
+                      </ExternalModuleBuildClasspathPojo>
+                    </value>
+                  </entry>
+                  <entry key="$PROJECT_DIR$/learn-spring-cloud-feign">
+                    <value>
+                      <ExternalModuleBuildClasspathPojo>
+                        <option name="path" value="$PROJECT_DIR$/learn-spring-cloud-feign" />
                       </ExternalModuleBuildClasspathPojo>
                     </value>
                   </entry>
@@ -1249,10 +1541,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/learn-spring-cloud-hello/build.gradle" />
         <option value="$PROJECT_DIR$/learn-spring-cloud-hello/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/learn-spring-cloud-hello/src/main/resources/application-develop.yml" />
-        <option value="$PROJECT_DIR$/learn-spring-cloud-hello/src/main/java/org/tduni/learn/springcloud/hello/controller/HelloController.java" />
         <option value="$PROJECT_DIR$/learn-spring-cloud-hello/src/test/java/org/tduni/learn/springcloud/hello/controller/HelloControllerTest.java" />
         <option value="$PROJECT_DIR$/learn-spring-cloud-hello/src/main/java/org/tduni/learn/springcloud/hello/actuate/RocketMQHealthIndicator.java" />
         <option value="$PROJECT_DIR$/learn-spring-cloud-eureka/build.gradle" />
@@ -1264,21 +1554,36 @@
         <option value="$PROJECT_DIR$/learn-spring-cloud-eureka/src/main/resources/application-dev.yml" />
         <option value="$PROJECT_DIR$/learn-spring-cloud-eureka2/src/main/resources/application-dev.yml" />
         <option value="$PROJECT_DIR$/learn-spring-cloud-hello/src/main/resources/application-dev.yml" />
-        <option value="$PROJECT_DIR$/learn-spring-cloud-hello2/build.gradle" />
         <option value="$PROJECT_DIR$/learn-spring-cloud-hello2/src/main/java/org/tduni/learn/springcloud/hello2/actuate/RocketMQHealthIndicator.java" />
         <option value="$PROJECT_DIR$/learn-spring-cloud-hello2/src/main/java/org/tduni/learn/springcloud/hello2/StartHelloServer.java" />
         <option value="$PROJECT_DIR$/learn-spring-cloud-hello2/src/main/java/org/tduni/learn/springcloud/hello2/StartHelloServer2.java" />
         <option value="$PROJECT_DIR$/learn-spring-cloud-hello2/src/main/resources/application-dev.yml" />
-        <option value="$PROJECT_DIR$/learn-spring-cloud-hello2/src/main/java/org/tduni/learn/springcloud/hello2/controller/HelloController.java" />
         <option value="$PROJECT_DIR$/learn-spring-cloud-ribbon/build.gradle" />
         <option value="$PROJECT_DIR$/learn-spring-cloud-ribbon/src/main/resources/application-dev.yml" />
-        <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/learn-spring-cloud-ribbon/src/main/java/org/tduni/learn/springcloud/ribbon/StartRibbonServer.java" />
         <option value="$PROJECT_DIR$/learn-spring-cloud-ribbon/src/main/java/org/tduni/learn/springcloud/ribbon/service/HelloService.java" />
         <option value="$PROJECT_DIR$/learn-spring-cloud-ribbon/src/main/java/org/tduni/learn/springcloud/ribbon/controller/HelloController.java" />
         <option value="$PROJECT_DIR$/learn-spring-cloud-hystrix-dashboard/build.gradle" />
         <option value="$PROJECT_DIR$/learn-spring-cloud-hystrix-dashboard/src/main/java/org/tduni/learn/springcloud/hystrix/dashboard/StartHystrixDashboardServer.java" />
         <option value="$PROJECT_DIR$/learn-spring-cloud-hystrix-dashboard/src/main/resources/application-dev.yml" />
+        <option value="$PROJECT_DIR$/learn-spring-cloud-feign/src/main/resources/application-dev.yml" />
+        <option value="$PROJECT_DIR$/learn-spring-cloud-feign/src/main/java/org/tduni/learn/springcloud/feign/service/HelloService.java" />
+        <option value="$PROJECT_DIR$/learn-spring-cloud-commons-contract/build.gradle" />
+        <option value="$PROJECT_DIR$/build.gradle" />
+        <option value="$PROJECT_DIR$/learn-spring-cloud-commons-contract/src/main/java/org/tduni/learn/springcloud/commons/contract/User.java" />
+        <option value="$PROJECT_DIR$/learn-spring-cloud-hello/build.gradle" />
+        <option value="$PROJECT_DIR$/learn-spring-cloud-feign/build.gradle" />
+        <option value="$PROJECT_DIR$/learn-spring-cloud-hello2/build.gradle" />
+        <option value="$PROJECT_DIR$/learn-spring-cloud-feign/src/main/java/org/tduni/learn/springcloud/feign/StartFeignServer.java" />
+        <option value="$PROJECT_DIR$/learn-spring-cloud-commons-contract/src/main/java/org/tduni/learn/springcloud/commons/contract/service/HelloService.java" />
+        <option value="$PROJECT_DIR$/learn-spring-cloud-commons-contract/src/main/java/org/tduni/learn/springcloud/commons/contract/service/HelloServerApi.java" />
+        <option value="$PROJECT_DIR$/learn-spring-cloud-commons-contract/src/main/java/org/tduni/learn/springcloud/commons/contract/api/HelloServerApi.java" />
+        <option value="$PROJECT_DIR$/learn-spring-cloud-hello2/src/main/java/org/tduni/learn/springcloud/hello2/controller/HelloController.java" />
+        <option value="$PROJECT_DIR$/learn-spring-cloud-hello/src/main/java/org/tduni/learn/springcloud/hello/controller/HelloController.java" />
+        <option value="$PROJECT_DIR$/learn-spring-cloud-feign/src/main/java/org/tduni/learn/springcloud/feign/controller/HelloController.java" />
+        <option value="$PROJECT_DIR$/learn-spring-cloud-feign/src/main/java/org/tduni/learn/springcloud/feign/api/HelloServerServiceFallback.java" />
+        <option value="$PROJECT_DIR$/learn-spring-cloud-feign/src/main/java/org/tduni/learn/springcloud/feign/api/HelloServerService.java" />
+        <option value="$PROJECT_DIR$/learn-spring-cloud-feign/src/main/resources/application.yml" />
       </list>
     </option>
   </component>
@@ -1357,9 +1662,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -1367,6 +1669,186 @@
               <option name="myItemId" value="learn-spring-cloud" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="learn-spring-cloud" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Gradle: org.springframework.cloud:spring-cloud-netflix-core:1.3.1.RELEASE" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spring-cloud-netflix-core-1.3.1.RELEASE.jar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="netflix" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="learn-spring-cloud" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Gradle: org.springframework.cloud:spring-cloud-netflix-core:1.3.1.RELEASE" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spring-cloud-netflix-core-1.3.1.RELEASE.jar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="netflix" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="feign" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="learn-spring-cloud" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Gradle: org.springframework.cloud:spring-cloud-netflix-core:1.3.1.RELEASE" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spring-cloud-netflix-core-1.3.1.RELEASE.jar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="netflix" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="feign" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="encoding" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="learn-spring-cloud" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Gradle: org.springframework.cloud:spring-cloud-netflix-core:1.3.1.RELEASE" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spring-cloud-netflix-core-1.3.1.RELEASE.jar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="learn-spring-cloud" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Gradle: io.github.openfeign:feign-hystrix:9.5.0" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="feign-hystrix-9.5.0.jar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="learn-spring-cloud" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Gradle: io.github.openfeign:feign-hystrix:9.5.0" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="feign-hystrix-9.5.0.jar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hystrix" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="learn-spring-cloud" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Gradle: io.github.openfeign:feign-core:9.5.0" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="feign-core-9.5.0.jar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="learn-spring-cloud" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Gradle: io.github.openfeign:feign-core:9.5.0" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="feign-core-9.5.0.jar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="feign" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -1388,7 +1870,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="learn-spring-cloud-ribbon" />
+              <option name="myItemId" value="learn-spring-cloud-hello" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1402,7 +1884,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="learn-spring-cloud-ribbon" />
+              <option name="myItemId" value="learn-spring-cloud-hello" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -1420,7 +1902,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="learn-spring-cloud-ribbon" />
+              <option name="myItemId" value="learn-spring-cloud-hello" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -1431,10 +1913,6 @@
               <option name="myItemId" value="main" />
               <option name="myItemType" value="org.jetbrains.plugins.gradle.projectView.GradleTreeStructureProvider$GradleSourceSetDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -1446,7 +1924,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="learn-spring-cloud-ribbon" />
+              <option name="myItemId" value="learn-spring-cloud-hello" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -1462,7 +1940,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="ribbon" />
+              <option name="myItemId" value="hello" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1476,7 +1954,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="learn-spring-cloud-ribbon" />
+              <option name="myItemId" value="learn-spring-cloud-hello" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -1492,41 +1970,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="ribbon" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="service" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="learn-spring-cloud" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="learn-spring-cloud" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="learn-spring-cloud-ribbon" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="org.jetbrains.plugins.gradle.projectView.GradleTreeStructureProvider$GradleSourceSetDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ribbon" />
+              <option name="myItemId" value="hello" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -1544,7 +1988,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="learn-spring-cloud-hystrix-dashboard" />
+              <option name="myItemId" value="learn-spring-cloud-feign" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1558,7 +2002,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="learn-spring-cloud-hystrix-dashboard" />
+              <option name="myItemId" value="learn-spring-cloud-feign" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -1576,7 +2020,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="learn-spring-cloud-hystrix-dashboard" />
+              <option name="myItemId" value="learn-spring-cloud-feign" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -1602,7 +2046,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="learn-spring-cloud-hystrix-dashboard" />
+              <option name="myItemId" value="learn-spring-cloud-feign" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -1618,7 +2062,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="dashboard" />
+              <option name="myItemId" value="feign" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1632,39 +2076,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="learn-spring-cloud-eureka2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="learn-spring-cloud" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="learn-spring-cloud" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="learn-spring-cloud-eureka2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="learn-spring-cloud" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="learn-spring-cloud" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="learn-spring-cloud-eureka2" />
+              <option name="myItemId" value="learn-spring-cloud-feign" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -1676,7 +2088,15 @@
               <option name="myItemType" value="org.jetbrains.plugins.gradle.projectView.GradleTreeStructureProvider$GradleSourceSetDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="feign" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controller" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1690,7 +2110,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="learn-spring-cloud-eureka2" />
+              <option name="myItemId" value="learn-spring-cloud-feign" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -1700,14 +2120,147 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="main" />
               <option name="myItemType" value="org.jetbrains.plugins.gradle.projectView.GradleTreeStructureProvider$GradleSourceSetDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="feign" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="api" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="learn-spring-cloud" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="learn-spring-cloud" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="learn-spring-cloud-commons-contract" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="learn-spring-cloud" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="learn-spring-cloud" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="learn-spring-cloud-commons-contract" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="learn-spring-cloud" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="learn-spring-cloud" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="learn-spring-cloud-commons-contract" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="org.jetbrains.plugins.gradle.projectView.GradleTreeStructureProvider$GradleSourceSetDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="learn-spring-cloud" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="learn-spring-cloud" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="learn-spring-cloud-commons-contract" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="org.jetbrains.plugins.gradle.projectView.GradleTreeStructureProvider$GradleSourceSetDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="contract" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="learn-spring-cloud" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="learn-spring-cloud" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="learn-spring-cloud-commons-contract" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="org.jetbrains.plugins.gradle.projectView.GradleTreeStructureProvider$GradleSourceSetDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="contract" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="api" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.annotationProcessors" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -1716,26 +2269,30 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="recentsLimit" value="10" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
       <recent name="org.tduni.learn.springcloud.hello.controller" />
     </key>
-    <key name="CreateTestDialog.Recents.Supers">
-      <recent name="" />
-    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="eureka" />
     </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="org.tduni.learn.springcloud.commons.contract.service" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\kidal\Documents\GitHub\tduni\learn-spring-cloud\learn-spring-cloud-feign\src\main\resources" />
       <recent name="C:\Users\kidal\Documents\GitHub\tduni\learn-spring-cloud\learn-spring-cloud-hystrix-dashboard\src\main\resources" />
       <recent name="C:\Users\kidal\Documents\GitHub\tduni\learn-spring-cloud\learn-spring-cloud-ribbon\src\main\resources" />
       <recent name="C:\Users\kidal\Documents\GitHub\tduni\learn-spring-cloud\learn-spring-cloud-hello2\src\main\resources" />
       <recent name="C:\Users\kidal\Documents\GitHub\tduni\learn-spring-cloud\learn-spring-cloud-hello2\src\main" />
-      <recent name="C:\Users\kidal\Documents\GitHub\tduni\learn-spring-cloud\learn-spring-cloud-eureka2\src\main\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.StartRibbonServer">
+  <component name="RunManager" selected="Application.StartFeignServer">
     <configuration default="false" name="StartEurekaServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -1745,8 +2302,8 @@
       </extension>
       <option name="MAIN_CLASS_NAME" value="org.tduni.learn.springcloud.eureka.StartEurekaServer" />
       <option name="VM_PARAMETERS" value="" />
-      <option name="PROGRAM_PARAMETERS" value="--spring.profiles.active=dev" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$/learn-spring-cloud-eureka" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="ENABLE_SWING_INSPECTOR" value="false" />
@@ -1764,9 +2321,9 @@
         </pattern>
       </extension>
       <option name="MAIN_CLASS_NAME" value="org.tduni.learn.springcloud.hello.StartHelloServer" />
-      <option name="VM_PARAMETERS" value="" />
-      <option name="PROGRAM_PARAMETERS" value="--spring.profiles.active=dev" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$/learn-spring-cloud-hello" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="ENABLE_SWING_INSPECTOR" value="false" />
@@ -1784,9 +2341,9 @@
         </pattern>
       </extension>
       <option name="MAIN_CLASS_NAME" value="org.tduni.learn.springcloud.hello2.StartHelloServer2" />
-      <option name="VM_PARAMETERS" value="" />
-      <option name="PROGRAM_PARAMETERS" value="--spring.profiles.active=dev" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$/learn-spring-cloud-hello2" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="ENABLE_SWING_INSPECTOR" value="false" />
@@ -1796,43 +2353,23 @@
       <envs />
       <method />
     </configuration>
-    <configuration default="false" name="StartRibbonServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="StartFeignServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="org.tduni.learn.springcloud.ribbon.*" />
+          <option name="PATTERN" value="org.tduni.learn.springcloud.feign.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="org.tduni.learn.springcloud.ribbon.StartRibbonServer" />
-      <option name="VM_PARAMETERS" value="" />
-      <option name="PROGRAM_PARAMETERS" value="--spring.profiles.active=dev" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$/learn-spring-cloud-ribbon" />
+      <option name="MAIN_CLASS_NAME" value="org.tduni.learn.springcloud.feign.StartFeignServer" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="ENABLE_SWING_INSPECTOR" value="false" />
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="learn-spring-cloud-ribbon_main" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="false" name="StartHystrixDashboardServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="org.tduni.learn.springcloud.hystrix.dashboard.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="org.tduni.learn.springcloud.hystrix.dashboard.StartHystrixDashboardServer" />
-      <option name="VM_PARAMETERS" value="" />
-      <option name="PROGRAM_PARAMETERS" value="--spring.profiles.active=dev" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$/learn-spring-cloud-hystrix-dashboard" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="learn-spring-cloud-hystrix-dashboard_main" />
+      <module name="learn-spring-cloud-feign_main" />
       <envs />
       <method />
     </configuration>
@@ -2250,25 +2787,26 @@
     <configuration default="true" type="osgi.bnd.run" factoryName="Test Launcher (JUnit)">
       <method />
     </configuration>
-    <list size="5">
+    <list size="4">
       <item index="0" class="java.lang.String" itemvalue="Application.StartEurekaServer" />
       <item index="1" class="java.lang.String" itemvalue="Application.StartHelloServer" />
       <item index="2" class="java.lang.String" itemvalue="Application.StartHelloServer2" />
-      <item index="3" class="java.lang.String" itemvalue="Application.StartRibbonServer" />
-      <item index="4" class="java.lang.String" itemvalue="Application.StartHystrixDashboardServer" />
+      <item index="3" class="java.lang.String" itemvalue="Application.StartFeignServer" />
     </list>
     <recent_temporary>
-      <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.StartRibbonServer" />
-        <item index="1" class="java.lang.String" itemvalue="Application.StartHystrixDashboardServer" />
+      <list size="4">
+        <item index="0" class="java.lang.String" itemvalue="Application.StartFeignServer" />
+        <item index="1" class="java.lang.String" itemvalue="Application.StartHelloServer" />
         <item index="2" class="java.lang.String" itemvalue="Application.StartEurekaServer" />
         <item index="3" class="java.lang.String" itemvalue="Application.StartHelloServer2" />
-        <item index="4" class="java.lang.String" itemvalue="Application.StartHelloServer" />
       </list>
     </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -2278,7 +2816,8 @@
       <option name="presentableId" value="Default" />
       <updated>1497236981157</updated>
       <workItem from="1497236985198" duration="9672000" />
-      <workItem from="1497282789524" duration="1268000" />
+      <workItem from="1497282789524" duration="2422000" />
+      <workItem from="1497319291921" duration="4313000" />
     </task>
     <servers />
   </component>
@@ -2294,11 +2833,11 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10940000" />
+    <option name="totallyTimeSpent" value="16407000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1176" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -2306,7 +2845,7 @@
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32917467" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -2317,18 +2856,18 @@
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2260128" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32917467" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.39539346" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39539346" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32917467" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -2351,72 +2890,11 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/learn-spring-cloud-ribbon/src/main/java/org/tduni/learn/springcloud/ribbon/StartRibbonServer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="18" column="21" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/learn-spring-cloud-ribbon/src/main/java/org/tduni/learn/springcloud/ribbon/service/HelloService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="609">
-          <caret line="36" column="7" selection-start-line="36" selection-start-column="7" selection-end-line="36" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#818#819#0" expanded="true" />
-            <element signature="e#919#920#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/learn-spring-cloud-ribbon/src/main/java/org/tduni/learn/springcloud/ribbon/controller/HelloController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#827#828#0" expanded="true" />
-            <element signature="e#870#871#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/learn-spring-cloud-hello/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-test/1.5.3.RELEASE/5ffcb510e4a63573a65913928c7383f74c03950e/spring-boot-test-1.5.3.RELEASE-sources.jar!/org/springframework/boot/test/context/SpringBootTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="337">
-          <caret line="71" column="18" selection-start-line="71" selection-start-column="18" selection-end-line="71" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot/1.5.3.RELEASE/48c2b8c7728069f168769d856b019fff6b5b998/spring-boot-1.5.3.RELEASE-sources.jar!/org/springframework/boot/context/config/ConfigFileApplicationListener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-5430">
-          <caret line="116" column="47" selection-start-line="116" selection-start-column="47" selection-end-line="116" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-test/4.3.8.RELEASE/6cf037cae41aa05bcffd4ee9a0acf0af9e9e4f08/spring-test-4.3.8.RELEASE-sources.jar!/org/springframework/test/web/servlet/setup/MockMvcBuilders.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="367">
-          <caret line="73" column="43" selection-start-line="73" selection-start-column="43" selection-end-line="73" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/learn-spring-cloud-hello/src/test/java/org/tduni/learn/springcloud/hello/controller/HelloControllerTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="626">
           <caret line="46" column="0" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -2424,15 +2902,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="525">
           <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/learn-spring-cloud-eureka/src/main/java/org/tduni/learn/springcloud/eureka/StartEurekaServer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
-          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="false" />
+            <element signature="e#683#684#0" expanded="false" />
+            <element signature="e#707#708#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -2441,6 +2914,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -2461,44 +2935,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/learn-spring-cloud-eureka/src/main/resources/application-dev.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="857">
-          <caret line="55" column="33" selection-start-line="55" selection-start-column="33" selection-end-line="55" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/learn-spring-cloud-hello/src/main/resources/application-dev.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="626">
-          <caret line="30" column="20" selection-start-line="30" selection-start-column="20" selection-end-line="30" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/learn-spring-cloud-hello/src/main/java/org/tduni/learn/springcloud/hello/StartHelloServer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="11" column="3" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="3" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/learn-spring-cloud-hello/src/main/java/org/tduni/learn/springcloud/hello/controller/HelloController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="22" column="7" selection-start-line="22" selection-start-column="7" selection-end-line="22" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/learn-spring-cloud-hello2/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/learn-spring-cloud-hello2/src/main/java/org/tduni/learn/springcloud/hello/actuate/RocketMQHealthIndicator.java" />
     <entry file="file://$PROJECT_DIR$/learn-spring-cloud-hello2/src/main/java/org/tduni/learn/springcloud/hello/StartHelloServer.java" />
     <entry file="file://$PROJECT_DIR$/learn-spring-cloud-hello2/src/main/java/org/tduni/learn/springcloud/hello2/actuate/RocketMQHealthIndicator.java">
@@ -2508,24 +2944,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/learn-spring-cloud-hello2/src/main/resources/application-dev.yml">
+    <entry file="file://$PROJECT_DIR$/learn-spring-cloud-hello2/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="5" column="15" selection-start-line="5" selection-start-column="15" selection-end-line="5" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/learn-spring-cloud-hello2/src/main/java/org/tduni/learn/springcloud/hello2/controller/HelloController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="17" column="7" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/learn-spring-cloud-hello2/src/main/java/org/tduni/learn/springcloud/hello2/StartHelloServer2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="14" column="32" selection-start-line="14" selection-start-column="32" selection-end-line="20" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -2533,13 +2955,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/learn-spring-cloud-ribbon/src/main/resources/application-dev.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="18" column="43" selection-start-line="18" selection-start-column="43" selection-end-line="18" selection-end-column="43" />
           <folding />
         </state>
       </provider>
@@ -2555,7 +2970,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1285">
           <caret line="32" column="18" selection-start-line="32" selection-start-column="18" selection-end-line="32" selection-end-column="18" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2563,23 +2977,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="488">
           <caret line="150" column="6" selection-start-line="150" selection-start-column="6" selection-end-line="150" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="22" column="113" selection-start-line="22" selection-start-column="113" selection-end-line="23" selection-end-column="114" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/learn-spring-cloud-hystrix-dashboard/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
-          <caret line="1" column="93" selection-start-line="1" selection-start-column="93" selection-end-line="1" selection-end-column="93" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2588,9 +2985,9 @@
         <state relative-caret-position="710">
           <caret line="45" column="21" selection-start-line="45" selection-start-column="21" selection-end-line="45" selection-end-column="21" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#818#819#0" expanded="true" />
-            <element signature="e#919#920#0" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#818#819#0" expanded="false" />
+            <element signature="e#919#920#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -2600,9 +2997,9 @@
         <state relative-caret-position="672">
           <caret line="34" column="35" selection-start-line="34" selection-start-column="35" selection-end-line="34" selection-end-column="35" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#827#828#0" expanded="true" />
-            <element signature="e#870#871#0" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#827#828#0" expanded="false" />
+            <element signature="e#870#871#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -2612,7 +3009,7 @@
         <state relative-caret-position="525">
           <caret line="27" column="5" selection-start-line="27" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -2621,24 +3018,278 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="16" column="13" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/learn-spring-cloud-hystrix-dashboard/src/main/resources/application-dev.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="567">
+          <caret line="27" column="20" selection-start-line="27" selection-start-column="20" selection-end-line="27" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/learn-spring-cloud-hystrix-dashboard/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="3" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/learn-spring-cloud-hystrix-dashboard/src/main/java/org/tduni/learn/springcloud/hystrix/dashboard/StartHystrixDashboardServer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="18" column="6" selection-start-line="18" selection-start-column="6" selection-end-line="18" selection-end-column="6" />
+        <state relative-caret-position="336">
+          <caret line="16" column="42" selection-start-line="16" selection-start-column="42" selection-end-line="22" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/learn-spring-cloud-ribbon/src/main/resources/application-dev.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/learn-spring-cloud-hello/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="626">
+          <caret line="30" column="20" selection-start-line="30" selection-start-column="20" selection-end-line="30" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/learn-spring-cloud-feign/src/main/java/org/tduni/learn/springcloud/feign/service/HelloService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="10" column="3" selection-start-line="10" selection-start-column="3" selection-end-line="11" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/learn-spring-cloud-commons-contract/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/learn-spring-cloud-feign/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="14" selection-start-line="0" selection-start-column="14" selection-end-line="0" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="651">
+          <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/learn-spring-cloud-eureka/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="628">
+          <caret line="55" column="33" selection-start-line="55" selection-start-column="33" selection-end-line="55" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/learn-spring-cloud-eureka/src/main/java/org/tduni/learn/springcloud/eureka/StartEurekaServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/learn-spring-cloud-hello2/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="2" column="1" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/learn-spring-cloud-hello/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="2" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/learn-spring-cloud-hello/src/main/java/org/tduni/learn/springcloud/hello/StartHelloServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="11" column="3" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/learn-spring-cloud-feign/src/main/java/org/tduni/learn/springcloud/feign/StartFeignServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="16" column="31" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/learn-spring-cloud-hello2/src/main/java/org/tduni/learn/springcloud/hello2/StartHelloServer2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="10" column="15" selection-start-line="10" selection-start-column="15" selection-end-line="10" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/learn-spring-cloud-commons-contract/src/main/java/org/tduni/learn/springcloud/commons/contract/model/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/learn-spring-cloud-hello2/src/main/java/org/tduni/learn/springcloud/hello2/controller/HelloController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="626">
+          <caret line="57" column="60" selection-start-line="57" selection-start-column="60" selection-end-line="57" selection-end-column="60" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/learn-spring-cloud-feign/src/main/java/org/tduni/learn/springcloud/feign/controller/HelloController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="20" column="25" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/learn-spring-cloud-hystrix-dashboard/src/main/resources/application-dev.yml">
+    <entry file="file://$PROJECT_DIR$/learn-spring-cloud-commons-contract/src/main/java/org/tduni/learn/springcloud/commons/contract/api/HelloServerApi.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.github.openfeign/feign-hystrix/9.5.0/98bac4fceed5dd9831c04f2be4804f4a53c07020/feign-hystrix-9.5.0-sources.jar!/feign/hystrix/FallbackFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1134">
+          <caret line="60" column="19" selection-start-line="60" selection-start-column="19" selection-end-line="60" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.cloud/spring-cloud-netflix-core/1.3.1.RELEASE/e2dc51ae02f218bfba7bf7dd220744748b139958/spring-cloud-netflix-core-1.3.1.RELEASE-sources.jar!/org/springframework/cloud/netflix/feign/FeignClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="652">
+          <caret line="98" column="32" selection-start-line="98" selection-start-column="32" selection-end-line="98" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/learn-spring-cloud-feign/src/main/java/org/tduni/learn/springcloud/feign/api/HelloServerService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="7" column="2" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="2" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/learn-spring-cloud-feign/src/main/java/org/tduni/learn/springcloud/feign/api/HelloServerServiceFallback.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#746#747#0" expanded="true" />
+            <element signature="e#773#774#0" expanded="true" />
+            <element signature="e#884#885#0" expanded="true" />
+            <element signature="e#911#912#0" expanded="true" />
+            <element signature="e#977#978#0" expanded="true" />
+            <element signature="e#1004#1005#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/learn-spring-cloud-hello/src/main/java/org/tduni/learn/springcloud/hello/controller/HelloController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="416">
+          <caret line="35" column="7" selection-start-line="35" selection-start-column="7" selection-end-line="35" selection-end-column="7" />
+          <folding>
+            <element signature="e#1097#1098#0" expanded="true" />
+            <element signature="e#1133#1134#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.cloud/spring-cloud-netflix-core/1.3.1.RELEASE/e2dc51ae02f218bfba7bf7dd220744748b139958/spring-cloud-netflix-core-1.3.1.RELEASE-sources.jar!/org/springframework/cloud/netflix/feign/encoding/FeignContentGzipEncodingAutoConfiguration.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="336">
-          <caret line="16" column="13" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="13" />
+          <caret line="40" column="65" selection-start-line="40" selection-start-column="58" selection-end-line="40" selection-end-column="65" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.github.openfeign/feign-core/9.5.0/dc1265cffa1fe729f08c1c3931b123bcb6870c41/feign-core-9.5.0-sources.jar!/feign/RequestInterceptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="397">
+          <caret line="37" column="17" selection-start-line="37" selection-start-column="17" selection-end-line="37" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.cloud/spring-cloud-netflix-core/1.3.1.RELEASE/e2dc51ae02f218bfba7bf7dd220744748b139958/spring-cloud-netflix-core-1.3.1.RELEASE-sources.jar!/org/springframework/cloud/netflix/feign/encoding/FeignContentGzipEncodingInterceptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="223">
+          <caret line="28" column="57" selection-start-line="28" selection-start-column="57" selection-end-line="28" selection-end-column="57" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.cloud/spring-cloud-netflix-core/1.3.1.RELEASE/e2dc51ae02f218bfba7bf7dd220744748b139958/spring-cloud-netflix-core-1.3.1.RELEASE-sources.jar!/org/springframework/cloud/netflix/feign/encoding/FeignAcceptGzipEncodingInterceptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="28" column="56" selection-start-line="28" selection-start-column="56" selection-end-line="28" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.cloud/spring-cloud-netflix-core/1.3.1.RELEASE/e2dc51ae02f218bfba7bf7dd220744748b139958/spring-cloud-netflix-core-1.3.1.RELEASE-sources.jar!/org/springframework/cloud/netflix/feign/encoding/BaseRequestInterceptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="44" column="17" selection-start-line="44" selection-start-column="17" selection-end-line="44" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.cloud/spring-cloud-netflix-core/1.3.1.RELEASE/e2dc51ae02f218bfba7bf7dd220744748b139958/spring-cloud-netflix-core-1.3.1.RELEASE-sources.jar!/org/springframework/cloud/netflix/feign/encoding/FeignClientEncodingProperties.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="28" column="23" selection-start-line="28" selection-start-column="23" selection-end-line="28" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/learn-spring-cloud-feign/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="395">
+          <caret line="41" column="0" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -2695,7 +3346,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>Spring|learn-spring-cloud-hystrix-dashboard_main|learn-spring-cloud-hystrix-dashboard</last-edited>
+          <last-edited>Spring|learn-spring-cloud-feign_main|learn-spring-cloud-feign</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

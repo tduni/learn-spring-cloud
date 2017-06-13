@@ -10,8 +10,10 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/learn-spring-cloud-commons-contract" />
             <option value="$PROJECT_DIR$/learn-spring-cloud-eureka" />
             <option value="$PROJECT_DIR$/learn-spring-cloud-eureka2" />
+            <option value="$PROJECT_DIR$/learn-spring-cloud-feign" />
             <option value="$PROJECT_DIR$/learn-spring-cloud-hello" />
             <option value="$PROJECT_DIR$/learn-spring-cloud-hello2" />
             <option value="$PROJECT_DIR$/learn-spring-cloud-hystrix-dashboard" />
