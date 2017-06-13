@@ -1,0 +1,48 @@
+#-----------------------------------------------------------------
+# Spring
+#-----------------------------------------------------------------
+spring:
+  application:
+    name: config-server
+  profiles:
+    active: dev
+  output:
+    ansi:
+      enabled: always
+  cloud:
+    config:
+      server:
+        git:
+          uri: "https://github.com/tduni/configuration"
+          search-paths: "learn-spring-cloud"
+          #username:
+          #password:
+
+#-----------------------------------------------------------------
+# Server
+#-----------------------------------------------------------------
+server:
+  port: 27104
+
+#-----------------------------------------------------------------
+# Actuator
+#-----------------------------------------------------------------
+endpoints:
+  health:
+    enabled: true
+    sensitive: false
+  metrics:
+    enabled: true
+    sensitive: false
+  beans:
+    enabled: true
+    sensitive: false
+
+#-----------------------------------------------------------------
+# Eureka
+#-----------------------------------------------------------------
+eureka:
+  client:
+    # 服务地址
+    service-url:
+      defaultZone: http://eureka.springcloud.learn.1.com:27101/eureka/

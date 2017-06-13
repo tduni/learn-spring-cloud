@@ -8,4 +8,6 @@ include 'learn-spring-cloud-hystrix-dashboard'
 include 'learn-spring-cloud-feign'
 include 'learn-spring-cloud-commons-contract'
 include 'learn-spring-cloud-gateway'
+include 'learn-spring-cloud-gateway-dynamic-route'
+include 'learn-spring-cloud-config'
 

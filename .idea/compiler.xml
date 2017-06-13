@@ -21,12 +21,16 @@
     <bytecodeTargetLevel>
       <module name="learn-spring-cloud-commons-contract_main" target="1.8" />
       <module name="learn-spring-cloud-commons-contract_test" target="1.8" />
+      <module name="learn-spring-cloud-config_main" target="1.8" />
+      <module name="learn-spring-cloud-config_test" target="1.8" />
       <module name="learn-spring-cloud-eureka2_main" target="1.8" />
       <module name="learn-spring-cloud-eureka2_test" target="1.8" />
       <module name="learn-spring-cloud-eureka_main" target="1.8" />
       <module name="learn-spring-cloud-eureka_test" target="1.8" />
       <module name="learn-spring-cloud-feign_main" target="1.8" />
       <module name="learn-spring-cloud-feign_test" target="1.8" />
+      <module name="learn-spring-cloud-gateway-dynamic-route_main" target="1.8" />
+      <module name="learn-spring-cloud-gateway-dynamic-route_test" target="1.8" />
       <module name="learn-spring-cloud-gateway_main" target="1.8" />
       <module name="learn-spring-cloud-gateway_test" target="1.8" />
       <module name="learn-spring-cloud-hello2_main" target="1.8" />

@@ -2,6 +2,7 @@
   <dictionary name="kidal">
     <words>
       <w>hystrix</w>
+      <w>zuul</w>
     </words>
   </dictionary>
 </component>

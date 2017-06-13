@@ -1,0 +1,63 @@
+#-----------------------------------------------------------------
+# Spring
+#-----------------------------------------------------------------
+spring:
+  application:
+    name: gateway-dynamic-server
+  profiles:
+    active: dev
+  output:
+    ansi:
+      enabled: always
+  cloud:
+    config:
+      uri: "http://127.0.0.1:27104/"
+      label: master
+
+#-----------------------------------------------------------------
+# Management
+#-----------------------------------------------------------------
+management:
+  security:
+    enabled: false
+
+#-----------------------------------------------------------------
+# Server
+#-----------------------------------------------------------------
+server:
+  port: 80
+
+#-----------------------------------------------------------------
+# Actuator
+#-----------------------------------------------------------------
+endpoints:
+  health:
+    enabled: true
+    sensitive: false
+  metrics:
+    enabled: true
+    sensitive: false
+  beans:
+    enabled: true
+    sensitive: false
+
+#-----------------------------------------------------------------
+# Eureka
+#-----------------------------------------------------------------
+eureka:
+  client:
+    # 服务地址
+    service-url:
+      defaultZone: http://eureka.springcloud.learn.1.com:27101/eureka/
+      #defaultZone: http://eureka.springcloud.learn.1.com:27101/eureka/,http://eureka2.springcloud.learn.1.com:27102/eureka/
+
+#-----------------------------------------------------------------
+# Zuul
+#-----------------------------------------------------------------
+zuul:
+  # 解决重定向时路劲不是网管而是真实微服务的问题
+  add-host-header: true
+  # 不自动创建路由规则
+  ignored-services: "*"
+  # 前缀
+  prefix: /api
